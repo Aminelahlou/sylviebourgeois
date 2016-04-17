@@ -7,8 +7,8 @@ app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
 })); 
 
 /* --- dépendances de contact --- */
-var nodemailer = require('nodemailer');
-var transporter = nodemailer.createTransport();
+//var nodemailer = require('nodemailer');
+//var transporter = nodemailer.createTransport();
 /* --- fin de dépendances de contact --- */
 app.set('port', (process.env.PORT || 5000));
 
@@ -26,28 +26,28 @@ app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
 
-app.post('/contact',function(request, response){
-	var transporter = nodemailer.createTransport({
-    service: 'Gmail',
-    auth: {
-        user: test,
-        pass: test
-    }
-});
+// app.post('/contact',function(request, response){
+// 	var transporter = nodemailer.createTransport({
+//     service: 'Gmail',
+//     auth: {
+//         user: test,
+//         pass: test
+//     }
+// });
 	
-  var mailOptions = {
-    from: '',
-    to: '',
-    subject: '',
-    text: 'Vous avez été contacté par ' + request.body.name + ':' + request.body.email + '\n' + request.body.message
-};
+//   var mailOptions = {
+//     from: '',
+//     to: '',
+//     subject: '',
+//     text: 'Vous avez été contacté par ' + request.body.name + ':' + request.body.email + '\n' + request.body.message
+// };
 
 // send mail with defined transport object
-transporter.sendMail(mailOptions, function(error, info){
-    if(error){
-        return console.log(error);
-    }
-    console.log('Message sent: ' + info.response);
+// transporter.sendMail(mailOptions, function(error, info){
+//     if(error){
+//         return console.log(error);
+//     }
+//     console.log('Message sent: ' + info.response);
 
-});
-});
+// });
+// });
