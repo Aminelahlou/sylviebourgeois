@@ -1,0 +1,562 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/layout.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+    <meta name="description" content="Read - Responsive HTML5 Template">
+    <meta name="keywords" content="read, blog, html5, portfolio">
+    <meta name="author" content="Pixelwars">
+    
+    <!-- InstanceBeginEditable name="doctitle" -->
+	<title>Read - Responsive HTML5 Template</title>
+	<!-- InstanceEndEditable -->
+    
+    <!-- FAV and TOUCH ICONS -->
+    <link rel="shortcut icon" href="../images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../images/ico/logo-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../images/ico/logo-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../images/ico/logo-72.png">
+    <link rel="apple-touch-icon-precomposed" href="../images/ico/logo-57.png">
+    
+    <!-- FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=UnifrakturMaguntia' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Coustard' rel='stylesheet' type='text/css'>
+    
+    <!--[if lte IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/selectivizr-min.js"></script>
+    <![endif]-->
+    
+    <!-- STYLES -->
+    <link rel="stylesheet" type="text/css" media="print" href="../css/print.css">
+    <link rel="stylesheet" type="text/css" href="../css/grid.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="../js/google-code-prettify/prettify.css">
+    <link rel="stylesheet" type="text/css" href="../css/uniform.default.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/flexslider.css">
+    
+    <!-- SCRIPTS -->
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
+    
+    <!-- InstanceBeginEditable name="head" -->
+	<!-- TemplateBeginEditable name="head" -->
+    <!-- TemplateEndEditable -->
+    <!-- InstanceEndEditable -->
+
+</head>
+
+
+<body>
+
+    <!-- #PAGE -->
+    <div id="page" class="hfeed site"> 
+      
+      <!-- .site-header -->
+      <header class="site-header wrapper" role="banner"> 
+        
+        <!-- .row -->
+        <div class="row"> 
+          
+          <!-- .site-title -->
+          <hgroup>
+            <h1 class="site-title"> <a href="../index.html" title="Read" rel="home">Read<!--<img src="images/logo.png" alt="logo">--></a> </h1>
+            <h2 class="site-description">. . . a minimalistic template focused on readability.</h2>
+          </hgroup>
+          <!-- .site-title --> 
+          
+          <!-- #site-navigation -->
+          <nav id="site-navigation" class="main-navigation" role="navigation">
+            <ul>
+              <li class="current-menu-item"><a href="../index.html">Home</a>
+                <ul>
+                  <li><a href="../home.html">Home alternate</a></li>	
+                  <li><a href="../sidebar.html">Blog with sidebar</a></li>
+                  <li><a href="../blog-masonry.html">Blog masonry</a></li>
+                </ul>
+              </li>
+              <li><a href="../about.html">About</a>
+                <ul>
+                  <li><a href="../typo.html">Typography</a></li>
+                  <li><a href="../shortcodes.html">Shortcodes</a></li>
+                  <li><a href="../archives.html">Archives</a></li>
+                  <li><a href="../archives-2.html">Archives Alternate</a></li>
+                  <li><a href="../grid.html">Grid</a></li>
+                  <li><a href="../404.html">404</a></li>
+                  <li><a href="../search-results.html">Search Results</a></li>
+                  <li><a href="../form-elements.html">Form Elements</a>
+                    <ul>
+                      <li><a href="../grid.html">Grid</a></li>
+                      <li><a href="../form-elements.html">Form Elements</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="../portfolio-ajax.html">Portfolio</a>
+                <ul>
+                  <li><a href="../portfolio.html">Portfolio no ajax</a></li>
+                  <li><a href="../portfolio-single.html">Portfolio single</a></li>
+                </ul>
+              </li>
+              <li><a href="../gallery-ajax.html">Gallery</a>
+                <ul>
+                  <li><a href="../gallery.html">Gallery no ajax</a></li>
+                  <li><a href="../gallery-single-ajax.html">Gallery single ajax</a></li>
+                  <li><a href="../gallery-single.html">Gallery single no ajax</a></li>
+                </ul>
+              </li>
+              <li><a href="../contact.html">Contact</a></li>
+              <li>
+                <form role="search" method="get" id="search-form" action="#">
+                  <label class="screen-reader-text" for="search">Search</label>
+                  <input type="text" value="" name="s" id="search" title="Enter keyword">
+                  <input type="submit" id="search-submit" title="Search it" value="→">
+                </form>
+              </li>
+            </ul>
+          </nav>
+          <!-- #site-navigation --> 
+          
+        </div>
+        <!-- .row --> 
+        
+      </header>
+      <!-- .site-header --> 
+      
+      
+      
+      
+      
+      <!-- #main -->
+      <section id="main" class="middle wrapper">
+        <div class="row row-fluid">
+        
+        
+        <!-- InstanceBeginEditable name="Middle" --> 
+      
+              <!-- #primary -->
+              <div id="primary" class="site-content span7"> 
+                
+                <!-- #content -->
+                <div id="content" role="main">
+				
+                
+                	
+					<!-- TemplateBeginEditable name="Middle-Content" -->
+                    
+                    Middle-Content
+					
+					<!-- TemplateEndEditable -->
+                
+                
+                
+                </div>
+                <!-- #content --> 
+                
+              </div>
+              <!-- #primary --> 
+              
+              
+              <!-- #secondary -->
+              <div id="secondary" class="widget-area span5" role="complementary">
+                
+                <!-- widget : search -->
+                <aside class="widget widget_search">
+                  <h3 class="widget-title">Search</h3>
+                  <form role="search" method="get" id="searchform" action="#">
+                    <div>
+                      <label class="screen-reader-text" for="s">Search for:</label>
+                      <input type="text" value="" name="s" id="s">
+                      <input type="submit" id="searchsubmit" value="Search">
+                    </div>
+                  </form>
+                </aside>
+                <!-- widget : search -->
+                
+                <!-- widget : flickr -->
+                <aside class="widget widget-flickr">
+                  <h3 class="widget-title">Photos on flickr</h3>
+                  <div class="flickr-badges flickr-badges-s">
+                  <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?size=s&amp;count=6&amp;display=random&amp;layout=x&amp;source=user&amp;user=52617155%40N08"></script>
+                   </div>
+                </aside>
+                <!-- widget : flickr -->
+                
+                <!-- widget : twitter -->
+                <aside class="widget widget-twitter">
+                    <h3 class="widget-title">Latest Tweets</h3>
+                    <div id="twitter-list">
+                        <ul id="twitter_update_list"></ul>
+                    </div>
+                    <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+                    <script type="text/javascript" src="http://api.twitter.com/1/statuses/user_timeline/envato.json?callback=twitterCallback2&amp;count=2"></script>
+                </aside>
+                <!-- widget : twitter -->
+                
+                <!-- widget : social -->
+                <aside class="widget widget_social">
+                     <h3 class="widget-title">Let's socialize!</h3>
+                     <!-- social icons -->
+                     <ul class="social">
+                        <li><a class="facebook" href="#">&#88;</a></li>
+                        <li><a class="twitter" href="#">&#95;</a></li>
+                        <li><a class="linkedin" href="#">&#118;</a></li>
+                        <li><a class="google" href="#">&#107;</a></li>
+                        <li><a class="vimeo" href="#">&#33;</a></li>
+                        <li><a class="pinterest" href="#"></a></li>
+                        <li><a class="flickr" href="#">&#98;</a></li>
+                        <li><a class="dribble" href="#">&#83;</a></li>
+                        <li><a class="lastfm" href="#">&#117;</a></li>
+                        <li><a class="rss" href="#">&#42;</a></li>
+                        <li><a class="forrst" href="#">&#100;</a></li>
+                        <li><a class="skype" href="#">&#58;</a></li>
+                        <li><a class="picassa" href="#">&#56;</a></li>
+                        <li><a class="youtube" href="#">&#39;</a></li>
+                        <li><a class="behance" href="#">&#71;</a></li>
+                        <li><a class="tumblr" href="#">&#92;</a></li>
+                        <li><a class="blogger" href="#">&#74;</a></li>
+                        <li><a class="delicious" href="#">&#76;</a></li>
+                        <li><a class="digg" href="#">&#81;</a></li>
+                        <li><a class="friendfeed" href="#">&#102;</a></li>
+                        <li><a class="github" href="#">&#106;</a></li>
+                        <li><a class="wordpress" href="#">$</a></li>
+                    </ul>
+                    <!-- social icons -->
+                </aside>
+                <!-- widget : social -->
+                
+                <!-- widget : recent_entries -->
+                <aside class="widget widget_recent_entries">
+                  <h3 class="widget-title">Recent Posts</h3>
+                  <ul>
+                    <li><a href="#" title="Thinking About Responsive Design">Thinking About Responsive Design</a></li>
+                    <li><a href="#" title="Adaptive Vs. Responsive Layouts And Optimal Form Field Labels">Adaptive Vs. Responsive Layouts And Optimal Form Field Labels</a></li>
+                    <li><a href="#" title="Hello world!">Hello world!</a></li>
+                  </ul>
+                </aside>
+                <!-- widget : recent_entries -->
+                
+                <!-- widget : popular_entries -->
+                <aside class="widget widget_popular_entries">
+                  <h3 class="widget-title">Popular Posts</h3>
+                  <ul>
+                    <li><a href="#" title="Thinking About Responsive Design">Thinking About Responsive Design</a></li>
+                    <li><a href="#" title="Adaptive Vs. Responsive Layouts And Optimal Form Field Labels">Adaptive Vs. Responsive Layouts And Optimal Form Field Labels</a></li>
+                    <li><a href="#" title="Hello world!">Hello world!</a></li>
+                  </ul>
+                </aside>
+                <!-- widget : popular_entries -->
+                
+                <!-- widget : recent_comments -->
+                <aside class="widget widget_recent_comments">
+                  <h3 class="widget-title">Recent Comments</h3>
+                  <ul id="recentcomments">
+                    <li class="recentcomments"><a href="#" rel="external nofollow" class="url">Albert Einstein</a> on <a href="#">Adaptive Layouts</a></li>
+                    <li class="recentcomments"><a href="#" rel="external nofollow" class="url">Thomas Edison</a> on <a href="#">I invented the bulb!</a></li>
+                    <li class="recentcomments"><a href="#" rel="external nofollow" class="url">Isaac Newton</a> on <a href="#">Gravity Theory</a></li>
+                  </ul>
+                </aside>
+                <!-- widget : recent_comments -->
+                
+                <!-- widget : categories -->
+                <aside class="widget widget_categories">
+                  <h3 class="widget-title">Categories</h3>
+                  <ul>
+                    <li><a href="#" title="View all posts filed under Uncategorized">Web Design</a></li>
+                    <li><a href="#" title="View all posts filed under Uncategorized">Javascript</a></li>
+                    <li><a href="#" title="View all posts filed under Uncategorized">Typography</a></li>
+                    <li><a href="#" title="View all posts filed under Uncategorized">Freebies</a></li>
+                  </ul>
+                </aside>
+                <!-- widget : categories -->
+                
+                <!-- widget : archive -->
+                <aside class="widget widget_archive">
+                  <h3 class="widget-title">Archives</h3>
+                  <ul>
+                    <li><a href="#" title="November 2012">November 2012</a></li>
+                    <li><a href="#" title="October 2012">October 2012</a></li>
+                  </ul>
+                </aside>
+                <!-- widget : archive -->
+                
+                <!-- widget : calendar -->
+                <aside class="widget widget_calendar">
+                  <h3 class="widget-title">Calendar</h3>
+                  <div id="calendar_wrap">
+                    <table id="wp-calendar">
+                      <caption>
+                      November 2012
+                      </caption>
+                      <thead>
+                        <tr>
+                          <th scope="col" title="Monday">M</th>
+                          <th scope="col" title="Tuesday">T</th>
+                          <th scope="col" title="Wednesday">W</th>
+                          <th scope="col" title="Thursday">T</th>
+                          <th scope="col" title="Friday">F</th>
+                          <th scope="col" title="Saturday">S</th>
+                          <th scope="col" title="Sunday">S</th>
+                        </tr>
+                      </thead>
+                      <tfoot>
+                        <tr>
+                          <td colspan="3" id="prev"><a href="#" title="View posts for October 2012">« Oct</a></td>
+                          <td class="pad">&nbsp;</td>
+                          <td colspan="3" id="next" class="pad">&nbsp;</td>
+                        </tr>
+                      </tfoot>
+                      <tbody>
+                        <tr>
+                          <td colspan="3" class="pad">&nbsp;</td>
+                          <td>1</td>
+                          <td>2</td>
+                          <td>3</td>
+                          <td>4</td>
+                        </tr>
+                        <tr>
+                          <td>5</td>
+                          <td>6</td>
+                          <td>7</td>
+                          <td>8</td>
+                          <td><a href="#" title="Adaptive Vs. Responsive Layouts And Optimal Form Field Labels">9</a></td>
+                          <td><a href="#" title="Thinking About Responsive Design">10</a></td>
+                          <td>11</td>
+                        </tr>
+                        <tr>
+                          <td>12</td>
+                          <td>13</td>
+                          <td>14</td>
+                          <td>15</td>
+                          <td>16</td>
+                          <td>17</td>
+                          <td>18</td>
+                        </tr>
+                        <tr>
+                          <td>19</td>
+                          <td>20</td>
+                          <td>21</td>
+                          <td id="today">22</td>
+                          <td>23</td>
+                          <td>24</td>
+                          <td>25</td>
+                        </tr>
+                        <tr>
+                          <td>26</td>
+                          <td>27</td>
+                          <td>28</td>
+                          <td>29</td>
+                          <td>30</td>
+                          <td class="pad" colspan="2">&nbsp;</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </aside>
+                <!-- widget : calendar -->
+                
+                <!-- widget : links -->
+                <aside class="widget widget_links">
+                  <h3 class="widget-title">Blogroll</h3>
+                  <ul class="blogroll">
+                    <li><a href="http://codex.wordpress.org/">Documentation</a></li>
+                    <li><a href="http://wordpress.org/support/forum/requests-and-feedback">Feedback</a></li>
+                    <li><a href="http://wordpress.org/extend/plugins/">Plugins</a></li>
+                    <li><a href="http://wordpress.org/support/">Support Forums</a></li>
+                  </ul>
+                </aside>
+                <!-- widget : links -->
+                
+                <!-- widget : pages -->
+                <aside class="widget widget_pages">
+                  <h3 class="widget-title">Pages</h3>
+                  <ul>
+                    <li class="page_item"><a href="#">About Me</a></li>
+                    <li class="page_item current_page_item"><a href="#">Gallery</a></li>
+                    <li class="page_item"><a href="#">Contact</a></li>
+                  </ul>
+                </aside>
+                <!-- widget : pages -->
+                
+                <!-- widget : tag_cloud -->
+                <aside class="widget widget_tag_cloud">
+                  <h3 class="widget-title">Tags</h3>
+                  <div class="tagcloud"> <a href="#" title="1 topic" style="font-size: 8pt;">adaptive</a> <a href="#" title="2 topics" style="font-size: 22pt;">design</a> <a href="#" title="1 topic" style="font-size: 8pt;">html</a> <a href="#" title="2 topics" style="font-size: 22pt;">responsive</a> <a href="#" title="2 topics" style="font-size: 22pt;">think</a> <a href="#" title="1 topic" style="font-size: 8pt;">web design</a> <a href="#" title="1 topic" style="font-size: 8pt;">css</a> <a href="#" title="2 topics" style="font-size: 22pt;">animations</a> <a href="#" title="1 topic" style="font-size: 8pt;">layout</a> <a href="#" title="2 topics" style="font-size: 14pt;">mobile</a> <a href="#" title="2 topics" style="font-size: 22pt;">think</a> <a href="#" title="1 topic" style="font-size: 8pt;">typography</a> </div>
+                </aside>
+                <!-- widget : tag_cloud -->
+                
+                <!-- widget : meta -->
+                <aside class="widget widget_meta">
+                  <h3 class="widget-title">Meta</h3>
+                  <ul>
+                    <li><a href="#">Site Admin</a></li>
+                    <li><a href="#">Log out</a></li>
+                    <li><a href="#" title="Syndicate this site using RSS 2.0">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+                    <li><a href="#" title="The latest comments to all posts in RSS">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+                    <li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>
+                  </ul>
+                </aside>
+                <!-- widget : meta -->
+                
+                <!-- widget : text -->
+                <aside class="widget widget_text">
+                  <h3 class="widget-title">Text Widget</h3>
+                  <div class="textwidget">This is a just text widget with some dummy content. This is a just text widget with some dummy content. This is a just text widget with some dummy content. </div>
+                </aside>
+                <!-- widget : text -->
+                
+                <!-- widget : newsletter -->
+                <aside class="widget eemail_widget">
+                  <h3 class="widget-title">Email newsletter</h3>
+                  <div>
+                    <div class="eemail_caption"> Subscribe your email </div>
+                    <div class="eemail_msg"> <span id="eemail_msg"></span> </div>
+                    <div class="eemail_textbox">
+                      <input class="eemail_textbox_class" id="eemail_txt_email" placeholder="Enter email" maxlength="150" type="text">
+                    </div>
+                    <div class="eemail_button">
+                      <input class="eemail_textbox_button" id="eemail_txt_Button" value="Submit" type="button">
+                    </div>
+                  </div>
+                </aside>
+                <!-- widget : newsletter -->
+                
+                <!-- widget : rss -->
+                <!--<aside class="widget widget_rss">
+                  <h3 class="widget-title"> <a class="rsswidget" href="#" title="Syndicate this content"><img style="border:0" width="14" height="14" src="http://themes.pixelwars.org/test/wp-includes/images/rss.png" alt="RSS"></a> <a class="rsswidget" href="#">RSS Feed</a></h3>
+                  <ul>
+                    <li><a class="rsswidget" href="#">Thinking About Good Design</a> <span class="rss-date">May 2, 2012</span>
+                      <div class="rssSummary">Vivamus et aliquet ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam erat volutpat. Curabitur vitae ornare erat. Fusce mollis dolor sed justo iaculis feugiat. Suspendisse potenti. Aenean rutrum ligula nec eros gravida et cursus sapien mollis. In laoreet tempus purus sed dictum. Cras pellentesque interdum u […]</div>
+                      <cite>Albert Einstein</cite> </li>
+                    <li><a class="rsswidget" href="#" title="Vivamus et aliquet ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam erat volutpat. Curabitur vitae ornare erat. Fusce mollis dolor sed justo iaculis feugiat. Suspendisse potenti. Aenean rutrum ligula nec eros gravida et cursus sapien mollis. In laoreet tempus purus sed dictum. Cras pellentesque interdum u […]">A Deep Brief on Character Design</a> <span class="rss-date">May 2, 2012</span>
+                      <div class="rssSummary">Vivamus et aliquet ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam erat volutpat. Curabitur vitae ornare erat. Fusce mollis dolor sed justo iaculis feugiat. Suspendisse potenti. Aenean rutrum ligula nec eros gravida et cursus sapien mollis. In laoreet tempus purus sed dictum. Cras pellentesque interdum u […]</div>
+                      <cite>Albert Einstein</cite> </li>
+                  </ul>
+                </aside>-->
+                <!-- widget : rss -->
+                
+              </div>
+              <!-- #secondary --> 
+              
+              
+              
+          <!-- InstanceEndEditable --> 
+         
+         
+         </div>
+      </section>
+      <!-- #main --> 
+      
+      
+      
+      
+      
+      <!-- .site-footer -->
+      <footer class="site-footer wrapper" role="contentinfo"> 
+        <!-- .row -->
+        <div class="row">
+        
+          
+          <!-- #supplementary -->	
+          <div id="supplementary" class="row-fluid">
+          	
+          	
+            <!-- .widget-area -->
+            <!--<div class="widget-area span3" role="complementary">
+            
+              <aside class="widget widget_text">
+                <h3 class="widget-title">About Read</h3>
+                <div class="textwidget">Read is a minimalistic wordpress theme focused on readability. This is a just text widget with some dummy content. This is a just text widget with some dummy content. This is a just text widget with some dummy content.</div>
+              </aside>
+              
+            </div>-->
+            <!-- .widget-area -->
+            
+            
+            <!-- .widget-area -->
+            <!--<div class="widget-area span3" role="complementary">
+            
+              <aside class="widget widget_recent_entries">
+                  <h3 class="widget-title">Recent Posts</h3>
+                  <ul>
+                    <li><a href="#" title="Thinking About Responsive Design">Thinking About Responsive Design</a></li>
+                    <li><a href="#" title="Adaptive Vs. Responsive Layouts And Optimal Form Field Labels">Adaptive Vs. Responsive Layouts And Optimal Form Field Labels</a></li>
+                    <li><a href="#" title="Hello world!">Hello world!</a></li>
+                  </ul>
+                </aside>
+              
+            </div>-->
+            <!-- .widget-area -->
+            
+            <!-- .widget-area -->
+            <!--<div class="widget-area span3" role="complementary">
+            
+              <aside class="widget widget-instagram">
+                  <h3 class="widget-title">Photos on Instagram</h3>
+                  <div class="instagram"></div>
+                  <script src="../js/instagram.js"></script>
+                </aside>
+              
+            </div>-->
+            <!-- .widget-area -->
+            
+            <!-- .widget-area -->
+            <!--<div class="widget-area span3" role="complementary">
+            
+              <aside class="widget widget_categories">
+                  <h3 class="widget-title">Categories</h3>
+                  <ul>
+                    <li><a href="#" title="View all posts filed under Uncategorized">Web Design</a></li>
+                    <li><a href="#" title="View all posts filed under Uncategorized">Javascript</a></li>
+                    <li><a href="#" title="View all posts filed under Uncategorized">Typography</a></li>
+                    <li><a href="#" title="View all posts filed under Uncategorized">Freebies</a></li>
+                  </ul>
+                </aside>
+              
+            </div>-->
+            <!-- .widget-area -->
+            
+            
+          </div>
+          <!-- #supplementary -->	
+          
+          
+          <!-- .site-info -->
+          <div class="site-info">by Pixelwars</div>
+          <!-- .site-info --> 
+          
+        </div>
+        <!-- .row --> 
+      </footer>
+      <!-- .site-footer --> 
+      
+    </div>
+    <!-- #PAGE -->
+    
+    
+    
+    
+    <!-- SCRIPTS -->
+    <script src="../js/detectmobilebrowser.js"></script>
+    <script src="../js/modernizr.js"></script>
+    <script src="../js/jquery.imagesloaded.min.js"></script>
+    <script src="../js/jquery.fitvids.js"></script>
+    <script src="../js/google-code-prettify/prettify.js"></script>
+    <script src="../js/jquery.uniform.min.js"></script>
+    
+    <!-- InstanceBeginEditable name="body-end" -->
+<!-- InstanceEndEditable -->
+    
+    <script src="../js/main.js"></script>
+    
+
+</body>
+<!-- InstanceEnd --></html>

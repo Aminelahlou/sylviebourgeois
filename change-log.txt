@@ -1,0 +1,64 @@
+
+---
+READ HTML5 TEMPLATE - CHANGE LOG
+---
+
+v.1.2 - 08.07.2014
+improved : readabilty on blog single pages
+fixed : youtube video not show in masonry blog on firefox
+fixed : blockquote icon too big on IE
+fixed : facebook like button doesn't show on IE and firefox.
+
+Changed Files:
+	- css/main.css
+	- js/main.js
+	
+---
+
+v1.1.1 - 23.09.2013
+fixed : proper google plus icon replaced
+
+Changed Files;
+  - main.css
+  - google plus social icon html markup
+--
+
+v1.1 - 28.03.2013
+--
+
+added : mobile search solution
+added : inline lightbox shortcodes
+added : client side validation to comment form
+added : alternate Archives page
+added : ligthbox soundcloud embed support to portfolio
+added : blog single share links
+added : blog masonry page
+added : drop caps
+added : instagram social icon
+improved : pre code blocks
+improved : post format styles
+improved : audio and media player styles
+updated : twitter script
+udapted : jquery to 1.8.3
+fixed : footer input overflow issue
+
+
+Changed Files
+ - css/normalize.css
+ - css/main.css
+ - css/flexslider.css
+ - css/mediaelement/mediaelementplayer.css
+ - js/main.js
+ - js/send-mail.js
+ - blog-single.html
+ - send-mail.php
+ - archives-2.html
+ - shortcodes.html
+ - index.html (post format aside markup)
+ - sidebar.html (link post format markup)
+ 
+ 
+------------------
+
+v1.0 – 10 january 2013 
+- initial release 

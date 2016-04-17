@@ -1,0 +1,1 @@
+You can download sample media files (auido and video) at http://mediaelementjs.com/.

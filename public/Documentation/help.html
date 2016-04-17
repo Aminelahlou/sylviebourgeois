@@ -1,0 +1,1266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Read Documentation</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Read Documentation">
+<meta name="author" content="Pixelwars">
+
+<!-- styles -->
+<link href='http://fonts.googleapis.com/css?family=Arbutus+Slab|Lora:400,700|Rokkitt:700' rel='stylesheet' type='text/css'>
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+<link href="assets/css/docs.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="assets/css/pixelwars.css">
+<link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<!-- fav -->
+<link rel="shortcut icon" href="assets/ico/favicon.ico">
+</head>
+
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+
+<!-- Subhead
+    ================================================== -->
+<header class="jumbotron subhead" id="overview">
+  <div class="container">
+    <h1>Read HTML5 <span class="highlight">Documentation</span></h1>
+    <p class="lead">Overview of the template, its contents, and how to get started with the template.</p>
+  </div>
+</header>
+<!-- Subhead
+    ================================================== --> 
+
+<!-- CONTAINER -->
+<div class="container"> 
+  <!-- ROW -->
+  <div class="row"> 
+    
+    <!-- Docs nav
+      ================================================== -->
+    <div class="span3 bs-docs-sidebar">
+      <ul class="nav nav-list bs-docs-sidenav">
+        <li><a href="#introduction">Introduction</a></li>
+        <li class="dropdown"><a href="#getting-started">Getting Started</a>
+          <ul class="nav nav-list sub-nav">
+            <li><a href="#file-structure">File Structure</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a href="#html">HTML</a>
+          <ul class="nav nav-list sub-nav">
+            <li><a href="#head">Head</a></li>
+            <li><a href="#layout">Layout</a></li>
+            <li><a href="#page-with-sidebar">Page with sidebar</a></li>
+            <li><a href="#page-full-width">Page Full Width</a></li>
+            <li><a href="#standart-page">Standart Page</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a href="#css">CSS</a></li>
+        <li class="dropdown"><a href="#javascript">Javascript</a> </li>
+        <li class="dropdown"><a href="#customization">Customization</a>
+          <ul class="nav nav-list sub-nav">
+            <li><a href="#custom-css">Custom CSS</a></li>
+            <li><a href="#fonts">Fonts</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a href="#credits">Credits</a></li>
+      </ul>
+    </div>
+    <!-- Docs nav
+      ================================================== --> 
+    
+    <!-- CONTENT -->
+    <div class="span9"> 
+      
+      <!-- INTRODUCTION
+        ================================================== -->
+      <section id="introduction">
+        <div class="page-header">
+          <h1>Introduction<small>a quick introduction</small></h1>
+        </div>
+        
+        <!--row fluid-->
+        <div class="row-fluid">
+          <div class="span8">
+            <div class="page-header">
+              <h4>created : <small>07.01.2013</small></h4>
+            </div>
+          </div>
+          <div class="span4">
+            <div class="page-header">
+              <p>by <a href="http://themeforest.net/user/pixelwars" target="_blank">pixelwars</a></p>
+            </div>
+          </div>
+        </div>
+        <!--row fluid--> 
+        
+        <!--thanks-->
+        <blockquote>
+          <p class="lead">Thank you for purchasing our theme. If you have any questions that are beyond the scope of this help file, you can sign in to our support forums with your purchase code. And please rate the theme on themeforest if you liked it. Thanks so much!</p>
+          <cite  class="muted" title="Source Title"> - Pixelwars Team</cite> </blockquote>
+        <!--thanks--> 
+        
+        <!--row fluid-->
+        <div class="row-fluid">
+          <div class="span4">
+            <h3>Support Forums</h3>
+            <p>Any questions that are beyond the scope of this help file, use <span class="highlight">support forums</span>.</p>
+            <p><a class="btn btn-large" href="http://www.pixelwars.org/forums/" target="_blank" >Visit Support Forums</a></p>
+          </div>
+          <div class="span4">
+            <h3>Follow us</h3>
+            <p>Follow us on themeforest and don't miss new upcoming premium themes.</p>
+            <p><a class="btn btn-large" href="http://themeforest.net/user/pixelwars" target="_blank" >Follow us on themeforest</a></p>
+          </div>
+          <div class="span4">
+            <h3>Rate Theme</h3>
+            <p>If you liked the theme you can rate it on themeforest in your downloads menu.</p>
+            <p><a class="btn btn-large btn-success" href="http://themeforest.net/user/pixelwars/portfolio" target="_blank">Rate on themeforest</a></p>
+          </div>
+        </div>
+        <!--row fluid--> 
+        
+      </section>
+      <!-- INTRODUCTION
+        ================================================== --> 
+      
+      <!-- GETTING STARTED
+        ================================================== -->
+      <section id="getting-started">
+        <div class="page-header">
+          <h1>Getting Started<small>things to know before get started</small></h1>
+        </div>
+        <p class="lead">We assume you have basic knowledge of HTML / CSS and JS. In this doc you will not learn how to code but you will learn how to setup, use and customize the theme. Before you begin make sure you have a code editor, you can use Dreamweaver or any other editor like <a href="http://notepad-plus-plus.org/" target="_blank">Notepad++</a> will be enough.</p>
+        
+        
+        
+        <!-- FILE STRUCTURE
+            ================================================== -->
+        <div id="file-structure" class="sub-section">
+          <div class="page-header">
+            <h3>File structure</h3>
+          </div>
+          <p class="lead">Within the download you'll find the following file structure, logically groupped common assets.</p>
+          <p>Once downloaded, unzip the compressed folder to see the structure of th theme. You'll see something like this:</p>
+          <pre class="prettyprint">
+  impressivCard/
+  ├── css/
+  ├── js/
+  ├── images/
+  ├── media/  
+  ├── Templates/
+  └── index.html
+</pre>
+			
+        <p>If you have Dreamweaver, and you are going to build a static html site with this template you can benefit template files in "Templates" folder. Template files includes layout markup shared by all pages, and once you have updated a template all pages that inherits that template are automatically updated. For example if you create a new site in Dreamweaver, then copy all project files to this site folder, then open "layout.dwt" under "Templates/" folder and update the main navigation menu markup in "layout.dwt", when you save it, all pages' menu markup will be updated. Check out this <a target="_blank" href="http://www.thesitewizard.com/gettingstarted/dreamweaver5.shtml">article</a> for more about Dreamweaver templates. Here are the Dreamweaver template files in this project;</p>
+        
+        <ul>
+        	<li><strong>layout.dwt</strong> Includes general layout markup (head, header, footer etc..) shared by all pages.</li>
+            <li><strong>page-with-sidebar.dwt</strong> Includes page with sidebar layout markup, used by sidebar.html</li>
+            <li><strong>page-full-width.dwt</strong> Includes page layout markup, used by all pages except sidebar.html</li>
+        </ul>
+        </div>
+        <!-- FILE STRUCTURE
+            ================================================== --> 
+        
+      </section>
+      <!-- GETTING STARTED
+        ================================================== --> 
+      
+      <!-- HTML
+        ================================================== -->
+      <section id="html">
+        <div class="page-header">
+          <h1>HTML<small>html structure and layout</small></h1>
+        </div>
+        <p class="lead">This template is based on <a target="_blank" href="http://twitter.github.com/bootstrap/">Bootstrap </a> framework which has a solid responsive grid system. Read uses 12 column <a target="_blank" href="http://twitter.github.com/bootstrap/scaffolding.html#fluidGridSystem">fluid grid system</a> for layout. All HTML files are in well formatted and highly commented.</p>
+        <p>Uses HTML5 Doctype</p>
+        <pre class="prettyprint linenums">
+&lt;!doctype html&gt;</pre>
+        
+        <!-- HEAD
+            ================================================== -->
+        <div id="head" class="sub-section">
+          <div class="page-header">
+            <h3>Head</h3>
+          </div>
+          <p>Head tags contains meta tags, font / css and jquery javascript file, other script files are added just before the closing tag of the body.</p>
+          <p>Here is meta tags and title. You can edit them as you want except the <span class="highlight">viewport</span> meta tag, it preserves responsive layout.</p>
+          <pre class="prettyprint linenums">
+&lt;meta charset=&quot;utf-8&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1&quot;&gt;
+&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; &gt;
+&lt;meta name=&quot;description&quot; content=&quot;Read - Responsive HTML5 Template&quot;&gt;
+&lt;meta name=&quot;keywords&quot; content=&quot;read, blog, html5, portfolio&quot;&gt;
+&lt;meta name=&quot;author&quot; content=&quot;Pixelwars&quot;&gt;
+</pre>
+			
+          <p>Here is favicon and apple touch icons.</p>
+          <pre class="prettyprint linenums">
+&lt;!-- FAV and TOUCH ICONS --&gt;
+&lt;link rel=&quot;shortcut icon&quot; href=&quot;../images/ico/favicon.ico&quot;&gt;
+&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;../images/ico/logo-144.png&quot;&gt;
+&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;../images/ico/logo-114.png&quot;&gt;
+&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;../images/ico/logo-72.png&quot;&gt;
+&lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;../images/ico/logo-57.png&quot;&gt;          
+</pre>
+            
+          <p>Here is font files. Fonts by <a target="_new" href="http://www.google.com/webfonts">Google Webfonts</a></p>
+          <pre class="prettyprint linenums">
+&lt;!-- FONTS --&gt;
+&lt;link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'&gt;
+&lt;link href='http://fonts.googleapis.com/css?family=UnifrakturMaguntia' rel='stylesheet' type='text/css'&gt;
+&lt;link href='http://fonts.googleapis.com/css?family=Coustard' rel='stylesheet' type='text/css'&gt;
+</pre>
+          
+          <p>Fallback script files for older ie versions.</p>
+          <pre class="prettyprint linenums">
+&lt;!--[if lte IE 9]&gt;
+	&lt;script src=&quot;js/html5shiv.js&quot;&gt;&lt;/script&gt;
+	&lt;script src=&quot;js/selectivizr-min.js&quot;&gt;&lt;/script&gt;
+&lt;![endif]--&gt;
+</pre>
+          <p>Here is css files.</p>
+          <pre class="prettyprint linenums">
+&lt;!-- STYLES --&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; media=&quot;print&quot; href=&quot;../css/print.css&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;../css/grid.css&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;../css/style.css&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;../css/normalize.css&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;../css/font-awesome.css&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;../js/google-code-prettify/prettify.css&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;../css/uniform.default.css&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;../css/main.css&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;../css/flexslider.css&quot;&gt;
+</pre>
+          
+          <p>jQuery javascript file from google cdn with local fallback, <span class="highlight">in the head</span>.</p>
+          <pre class="prettyprint linenums">
+&lt;!-- SCRIPTS --&gt;
+&lt;!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline --&gt;
+&lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;window.jQuery || document.write('&lt;script src=&quot;js/jquery-1.8.2.min.js&quot;&gt;&lt;/script&gt;')&lt;/script&gt;
+</pre>     
+			<p>Other script files are located at the <span class="highlight">end of the body tag</span>. These are the general script files used over all files, some pages add extra javascript files when needed ony on that page.</p>
+          <pre class="prettyprint linenums">
+&lt;!-- SCRIPTS --&gt;
+&lt;script src=&quot;../js/detectmobilebrowser.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;../js/modernizr.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;../js/jquery.imagesloaded.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;../js/jquery.fitvids.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;../js/google-code-prettify/prettify.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;../js/jquery.uniform.min.js&quot;&gt;&lt;/script&gt;
+</pre>
+        </div>
+        <!-- HEAD
+            ================================================== --> 
+        
+        <!-- LAYOUT
+            ================================================== -->
+        <div id="layout" class="sub-section">
+          <div class="page-header">
+            <h3>Layout</h3>
+          </div>
+          
+          <h4>General Layout Markup</h4>
+          <p>This is the general layout markup for all pages.</p>
+          <pre class="prettyprint linenums">
+&lt;!-- #PAGE --&gt;
+&lt;div id=&quot;page&quot; class=&quot;hfeed site&quot;&gt; 
+      
+	  
+      &lt;!-- .site-header --&gt;
+      &lt;header class=&quot;site-header wrapper&quot; role=&quot;banner&quot;&gt; 
+        
+      &lt;/header&gt;
+      &lt;!-- .site-header --&gt; 
+      
+	  
+      &lt;!-- #main --&gt;
+      &lt;section id=&quot;main&quot; class=&quot;middle wrapper&quot;&gt;
+        &lt;div class=&quot;row row-fluid&quot;&gt;
+        
+
+         &lt;/div&gt;
+      &lt;/section&gt;
+      &lt;!-- #main --&gt; 
+      
+      
+      &lt;!-- .site-footer --&gt;
+      &lt;footer class=&quot;site-footer wrapper&quot; role=&quot;contentinfo&quot;&gt; 
+        
+      &lt;/footer&gt;
+      &lt;!-- .site-footer --&gt; 
+      
+	  
+&lt;/div&gt;
+&lt;!-- #PAGE --&gt;
+</pre>
+			
+            <h4>Header Markup</h4>
+          <p>This is the header markup. As you can see below nav menu supports infinite sub menu support with inner <code>ul</code> elements.</p>
+          <pre class="prettyprint linenums">
+  &lt;!-- .site-header --&gt;
+  &lt;header class=&quot;site-header wrapper&quot; role=&quot;banner&quot;&gt; 
+	
+	&lt;!-- .row --&gt;
+	&lt;div class=&quot;row&quot;&gt; 
+	  
+	  &lt;!-- .site-title --&gt;
+	  &lt;hgroup&gt;
+		&lt;h1 class=&quot;site-title&quot;&gt; &lt;a href=&quot;../index.html&quot; title=&quot;Read&quot; rel=&quot;home&quot;&gt;Read&lt;!--&lt;img src=&quot;images/logo.png&quot; alt=&quot;logo&quot;&gt;--&gt;&lt;/a&gt; &lt;/h1&gt;
+		&lt;h2 class=&quot;site-description&quot;&gt;. . . a minimalistic template focused on readability.&lt;/h2&gt;
+	  &lt;/hgroup&gt;
+	  &lt;!-- .site-title --&gt; 
+	  
+	  &lt;!-- #site-navigation --&gt;
+	  &lt;nav id=&quot;site-navigation&quot; class=&quot;main-navigation&quot; role=&quot;navigation&quot;&gt;
+		&lt;ul&gt;
+		  &lt;li class=&quot;current-menu-item&quot;&gt;&lt;a href=&quot;../index.html&quot;&gt;Home&lt;/a&gt;
+			&lt;ul&gt;
+			  &lt;li&gt;&lt;a href=&quot;../home.html&quot;&gt;Home alternate&lt;/a&gt;&lt;/li&gt;	
+			  &lt;li&gt;&lt;a href=&quot;../sidebar.html&quot;&gt;Blog with sidebar&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		  &lt;/li&gt;
+		  &lt;li&gt;&lt;a href=&quot;../about.html&quot;&gt;About&lt;/a&gt;
+			&lt;ul&gt;
+			  &lt;li&gt;&lt;a href=&quot;../typo.html&quot;&gt;Typography&lt;/a&gt;&lt;/li&gt;
+			  &lt;li&gt;&lt;a href=&quot;../shortcodes.html&quot;&gt;Shortcodes&lt;/a&gt;&lt;/li&gt;
+			  &lt;li&gt;&lt;a href=&quot;../archives.html&quot;&gt;Archives&lt;/a&gt;&lt;/li&gt;
+			  &lt;li&gt;&lt;a href=&quot;../grid.html&quot;&gt;Grid&lt;/a&gt;&lt;/li&gt;
+			  &lt;li&gt;&lt;a href=&quot;../404.html&quot;&gt;404&lt;/a&gt;&lt;/li&gt;
+			  &lt;li&gt;&lt;a href=&quot;../search-results.html&quot;&gt;Search Results&lt;/a&gt;&lt;/li&gt;
+			  &lt;li&gt;&lt;a href=&quot;../form-elements.html&quot;&gt;Form Elements&lt;/a&gt;
+				&lt;ul&gt;
+				  &lt;li&gt;&lt;a href=&quot;../grid.html&quot;&gt;Grid&lt;/a&gt;&lt;/li&gt;
+				  &lt;li&gt;&lt;a href=&quot;../form-elements.html&quot;&gt;Form Elements&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+			  &lt;/li&gt;
+			&lt;/ul&gt;
+		  &lt;/li&gt;
+		  &lt;li&gt;&lt;a href=&quot;../portfolio-ajax.html&quot;&gt;Portfolio&lt;/a&gt;
+			&lt;ul&gt;
+			  &lt;li&gt;&lt;a href=&quot;../portfolio.html&quot;&gt;Portfolio no ajax&lt;/a&gt;&lt;/li&gt;
+			  &lt;li&gt;&lt;a href=&quot;../portfolio-single.html&quot;&gt;Portfolio single&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		  &lt;/li&gt;
+		  &lt;li&gt;&lt;a href=&quot;../gallery-ajax.html&quot;&gt;Gallery&lt;/a&gt;
+			&lt;ul&gt;
+			  &lt;li&gt;&lt;a href=&quot;../gallery.html&quot;&gt;Gallery no ajax&lt;/a&gt;&lt;/li&gt;
+			  &lt;li&gt;&lt;a href=&quot;../gallery-single-ajax.html&quot;&gt;Gallery single ajax&lt;/a&gt;&lt;/li&gt;
+			  &lt;li&gt;&lt;a href=&quot;../gallery-single.html&quot;&gt;Gallery single no ajax&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		  &lt;/li&gt;
+		  &lt;li&gt;&lt;a href=&quot;../contact.html&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+		  &lt;li&gt;
+			&lt;form role=&quot;search&quot; method=&quot;get&quot; id=&quot;search-form&quot; action=&quot;#&quot;&gt;
+			  &lt;label class=&quot;screen-reader-text&quot; for=&quot;search&quot;&gt;Search&lt;/label&gt;
+			  &lt;input type=&quot;text&quot; value=&quot;&quot; name=&quot;s&quot; id=&quot;search&quot; title=&quot;Enter keyword&quot;&gt;
+			  &lt;input type=&quot;submit&quot; id=&quot;search-submit&quot; title=&quot;Search it&quot; value=&quot;&amp;#8594;&quot;&gt;
+			&lt;/form&gt;
+		  &lt;/li&gt;
+		&lt;/ul&gt;
+	  &lt;/nav&gt;
+	  &lt;!-- #site-navigation --&gt; 
+	  
+	&lt;/div&gt;
+	&lt;!-- .row --&gt; 
+	
+  &lt;/header&gt;
+  &lt;!-- .site-header --&gt; 
+
+</pre>
+            
+          <p class="alert">You can use image logo instead of text. Just remove the text in the <code>h1.site-title a</code> link and put your image logo inside (commented in the code above).</p>
+            
+          <h4>Footer Markup</h4>
+          <p>Here is the markup for footer;</p>
+          <pre class="prettyprint linenums">
+  &lt;!-- .site-footer --&gt;
+  &lt;footer class=&quot;site-footer wrapper&quot; role=&quot;contentinfo&quot;&gt; 
+	&lt;!-- .row --&gt;
+	&lt;div class=&quot;row&quot;&gt;
+	
+	  &lt;!-- .site-info --&gt;
+	  &lt;div class=&quot;site-info&quot;&gt;by Pixelwars&lt;/div&gt;
+	  &lt;!-- .site-info --&gt; 
+	  
+	&lt;/div&gt;
+	&lt;!-- .row --&gt; 
+  &lt;/footer&gt;
+  &lt;!-- .site-footer --&gt; 
+</pre>
+        </div>
+        <!-- LAYOUT
+            ================================================== --> 
+        
+        <!-- PAGE WITH SIDEBAR
+            ================================================== -->
+        <div id="page-with-sidebar" class="sub-section">
+          <div class="page-header">
+            <h3>Page with sidebar</h3>
+          </div>
+          <p>Here is the markup for pages with sidebar. This markup is used in <code>sidebar.html</code></p>
+          <pre class="prettyprint linenums">
+&lt;!-- #primary --&gt;
+&lt;div id=&quot;primary&quot; class=&quot;site-content span7&quot;&gt; 
+
+	&lt;!-- #content --&gt;
+	&lt;div id=&quot;content&quot; role=&quot;main&quot;&gt;
+
+		&lt;!-- Page Content Here --&gt;
+		
+	&lt;/div&gt;
+	&lt;!-- #content --&gt; 
+
+&lt;/div&gt;
+&lt;!-- #primary --&gt; 
+
+
+&lt;!-- #secondary --&gt;
+&lt;div id=&quot;secondary&quot; class=&quot;widget-area span5&quot; role=&quot;complementary&quot;&gt;
+
+	&lt;!-- Sidebar Content Here --&gt;
+
+&lt;/div&gt;
+&lt;!-- #secondary --&gt; 
+</pre>
+         
+        </div>
+        <!-- PAGE WITH SIDEBAR
+            ================================================== --> 
+        
+        <!-- PAGE FULL WIDTH
+            ================================================== -->
+        <div id="page-full-width" class="sub-section">
+          <div class="page-header">
+            <h3>Page Full Width</h3>
+          </div>
+          <p>All pages except <code>sidebar.html</code> use page full with markup;</p>
+          <pre class="prettyprint linenums">
+&lt;!-- #primary --&gt;
+&lt;div id=&quot;primary&quot; class=&quot;site-content&quot;&gt;
+	
+	&lt;!-- #content --&gt;
+	&lt;div id=&quot;content&quot; role=&quot;main&quot;&gt;
+	
+		&lt;!-- Page Content --&gt;
+		
+	&lt;/div&gt;
+	&lt;!-- #content --&gt;
+	
+&lt;/div&gt;
+&lt;!-- #primary --&gt;
+</pre>
+          
+        </div>
+        <!-- PAGE FULL WIDTH
+            ================================================== --> 
+        
+        
+        <!-- STANDART PAGE
+            ================================================== -->
+        <div id="standart-page" class="sub-section">
+          <div class="page-header">
+            <h3>Standart Page</h3>
+          </div>
+          <p>All pages are in well formatted and markup is highly commented so we will not explain every page's markup, because commented markup is self-explanatory. Here is a markup for a standart page.</p>
+          <pre class="prettyprint linenums">
+&lt;!-- .hentry --&gt;
+&lt;article class=&quot;page hentry&quot;&gt;
+	
+	
+	&lt;!-- .entry-header --&gt;
+	&lt;header class=&quot;entry-header&quot;&gt;
+		 &lt;h1 class=&quot;entry-title&quot;&gt;PAGE TITLE&lt;/h1&gt;
+	&lt;/header&gt;
+	&lt;!-- .entry-header --&gt;
+	
+	
+	&lt;!-- .entry-content --&gt;
+	&lt;div class=&quot;entry-content&quot;&gt;
+		
+		
+		&lt;!--  PAGE CONTENT --&gt;
+		
+		
+	&lt;/div&gt;
+	&lt;!-- .entry-content --&gt;
+	
+	
+&lt;/article&gt;
+&lt;!-- .hentry --&gt;
+</pre>          
+        </div>
+        <!-- STANDART PAGE
+            ================================================== --> 
+        
+        <!-- BLOG
+            ================================================== -->
+        <div id="blog" class="sub-section">
+          <div class="page-header">
+            <h3>Blog</h3>
+          </div>
+          <p>Blog page supports several post formats. I want to talk about self hosted audio and video. Other post format's html is simple as is.</p>
+     	  <p>This template uses <a target="_blank" href="http://mediaelementjs.com">mediaelementjs</a> script for self hosted html5 audio/video solution. It also has flash/silverlight fallbacks for non-supported browsers.</p>
+          <div class="page-header">
+            <h4>Self Hosted Audio</h4>
+          </div>
+          <p>Only one .mp3 file is enough for self hosted html5 audio. Here is the markup;</p>
+          <pre class="prettyprint linenums">
+&lt;audio preload=&quot;none&quot; src=&quot;media/AirReview-Landmarks-02-ChasingCorporate.mp3&quot; type=&quot;audio/mp3&quot; style=&quot;width: 100%;&quot;&gt;&lt;/audio&gt;
+</pre>         
+			<div class="page-header">
+            <h4>Self Hosted Video</h4>
+          </div>
+          <p>And again thanks to <a target="_blank" href="http://mediaelementjs.com">mediaelementjs</a> only one .mp4 file is enough for self hosted html5 video. Here is the markup;</p>
+          <pre class="prettyprint linenums">
+&lt;video src=&quot;media/echo-hereweare.mp4&quot; poster=&quot;media/echo-hereweare.jpg&quot; preload=&quot;none&quot; style=&quot;width: 100%; height: 100%;&quot;&gt;&lt;/video&gt;
+</pre>       
+			<div class="alert"><strong>Note : </strong> <code>poster=&quot;media/echo-hereweare.jpg&quot;</code> is the image that will be shown as placeholder (or poster) before video playing.</div> 
+        </div>
+        <!-- BLOG
+            ================================================== --> 
+        
+        
+        <!-- PORTFOLIO
+            ================================================== -->
+        <div id="portfolio" class="sub-section">
+          <div class="page-header">
+            <h3>Portfolio</h3>
+          </div>
+          <p>Portfolio page has 5 columns masonry layout and filtering powered <a href="http://isotope.metafizzy.co/" target="_blank">isotope</a> plugin.</p>
+          <p><span class="highlight"><strong>1. Filtering :</strong></span> Here is the markup;</p>
+          <div class="alert"><strong>Note that : </strong> <code>data-filter=".design"</code> attiribute keeps the class name of items which will be filtered under same category.</div>
+          <pre class="prettyprint linenums">&lt;!--FILTERS--&gt;
+&lt;ul id=&quot;filters&quot;&gt;
+  &lt;li class=&quot;current&quot;&gt;&lt;a href=&quot;#&quot; data-filter=&quot;*&quot;&gt;all&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; data-filter=&quot;.design&quot;&gt;design&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; data-filter=&quot;.coding&quot;&gt;coding&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; data-filter=&quot;.logo&quot;&gt;logo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--FILTERS--&gt;</pre>
+
+          <p><span class="highlight"><b>2. Portfolio Items :</b></span> Here is the structure of portfolio items;</p>
+          <div class="alert"><strong>Note that : </strong> class name design in <code>&lt;div class=&quot;item design&quot;&gt;</code> is related to <code>data-filter=".design"</code> attribute of filter markup.</div>
+          <pre class="prettyprint linenums">
+&lt;!-- PORTFOLIO --&gt;
+&lt;div class=&quot;portfolio-items&quot;&gt;
+
+  &lt;div class=&quot;hentry design&quot;&gt;
+	...
+  &lt;/div&gt;
+  
+  &lt;div class=&quot;hentry coding&quot;&gt;
+	...
+  &lt;/div&gt;
+  
+  &lt;div class=&quot;hentry logo&quot;&gt;
+	..
+  &lt;/div&gt;
+  
+  &lt;!-- portfolio-item x2 size --&gt;   
+  &lt;div class=&quot;hentry coding x2&quot;&gt;
+
+  &lt;/div&gt;
+  &lt;!-- portfolio-item x2 size --&gt;
+  
+&lt;/div&gt;
+&lt;!-- PORTFOLIO --&gt;
+</pre>
+			<div class="alert"><strong>Note that : </strong> class name x2 in <code>&lt;div class=&quot;hentry&quot;&gt;</code> makes portfolio item's thumb 2x size bigger.</div>
+          <div class="page-header">
+            <h4>Portfolio Item Types</h4>
+          </div>
+          <p>We have 3 different types of portfolio item in general; Standart Portfolio Details (goes to portfolio single page) / Lightbox (image - image gallery - video) and custom url.</p>
+          <p><span class="highlight"><strong>1. Standart Portfolio Details Link :</strong></span> contains a link that goes to portfolio single page. Here is the markup;</p>
+          <pre class="prettyprint linenums">
+&lt;!-- portfolio-item --&gt;   
+&lt;div class=&quot;coding hentry&quot;&gt;
+	&lt;div class=&quot;media-box&quot;&gt;
+		&lt;img src=&quot;images/portfolio/11.jpg&quot; alt=&quot;portfolio-post&quot;&gt;
+		&lt;div class=&quot;mask&quot;&gt;
+			&lt;div class=&quot;portfolio-info&quot;&gt;
+				&lt;h3&gt;Machine workers&lt;/h3&gt;
+				&lt;p class=&quot;category&quot;&gt;an illustration by Dan Matutina&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;a href=&quot;portfolio-single.html&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- portfolio-item --&gt; 
+</pre>
+          <p><span class="highlight"><strong>2. Lightbox Portfolio Details Link :</strong></span> uses customized and mobile optimized <a href="http://fancybox.net/" target="_blank">fancybox</a> plugin. Supports image titles, image gellaries and videos.</p>
+          <p>Here is the markup for lightbox single image;</p>
+          <pre class="prettyprint linenums">
+&lt;!-- portfolio-item - lightbox image --&gt;  
+&lt;div class=&quot;logo image hentry&quot;&gt;
+	&lt;div class=&quot;media-box&quot;&gt;
+		&lt;img src=&quot;images/portfolio/09.jpg&quot; alt=&quot;portfolio-post&quot;&gt;
+		&lt;div class=&quot;mask&quot;&gt;
+			&lt;div class=&quot;portfolio-info&quot;&gt;
+				&lt;h3&gt;Lightbox Image&lt;/h3&gt;
+				&lt;p class=&quot;category&quot;&gt;a booking mobile app&lt;/p&gt;
+			&lt;/div&gt;
+			
+			&lt;!-- lightbox - image --&gt; 
+			&lt;a href=&quot;images/portfolio/lightbox-01.jpg&quot; title=&quot;Animal with love&quot; data-lightbox-gallery=&quot;fancybox-item-01&quot; class=&quot;lightbox&quot;&gt;&lt;/a&gt;
+			&lt;!-- lightbox - image --&gt;
+			
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- portfolio-item - lightbox image --&gt;
+</pre>
+      
+          <p>Here is the markup for lightbox gallery;</p>
+          <pre class="prettyprint linenums">
+&lt;!-- portfolio-item - lightbox gallery --&gt;
+&lt;div class=&quot;design image hentry&quot;&gt;
+	&lt;div class=&quot;media-box&quot;&gt;
+		&lt;img src=&quot;images/portfolio/10.jpg&quot; alt=&quot;portfolio-post&quot;&gt;
+		&lt;div class=&quot;mask&quot;&gt;
+			&lt;div class=&quot;portfolio-info&quot;&gt;
+				&lt;h3&gt;Lightbox Gallery&lt;/h3&gt;
+				&lt;p class=&quot;category&quot;&gt;Web Design, UI Design&lt;/p&gt;
+			&lt;/div&gt;
+			
+			&lt;!-- lightbox - gallery --&gt;
+			&lt;a href=&quot;images/portfolio/lightbox-02.jpg&quot; data-lightbox-gallery=&quot;fancybox-item-02&quot; class=&quot;lightbox&quot; title=&quot;Octopus is dangerous!&quot;&gt;&lt;/a&gt;
+			&lt;a href=&quot;images/portfolio/lightbox-04.jpg&quot; data-lightbox-gallery=&quot;fancybox-item-02&quot; class=&quot;hidden lightbox&quot;&gt;&lt;/a&gt;
+			&lt;a href=&quot;images/portfolio/lightbox-03.jpg&quot; data-lightbox-gallery=&quot;fancybox-item-02&quot; class=&quot;hidden lightbox&quot; title=&quot;Dog have dreams&quot;&gt;&lt;/a&gt;
+			&lt;!-- lightbox - gallery --&gt;
+			
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- portfolio-item - lightbox gallery --&gt;
+</pre>
+			<div class="alert"> <strong>Note that : </strong> items with the same value of <code>data-lightbox-gallery</code> attribute will be shown as a set of lightbox gallery. </div>
+          
+          <p>Here is the markup for lightbox video;</p>
+          <pre class="prettyprint linenums">
+&lt;!-- portfolio-item - lightbox video --&gt;  
+&lt;div class=&quot;coding video hentry&quot;&gt;
+	&lt;div class=&quot;media-box&quot;&gt;
+		&lt;img src=&quot;images/portfolio/02.jpg&quot; alt=&quot;portfolio-post&quot;&gt;
+		&lt;div class=&quot;mask&quot;&gt;
+			&lt;div class=&quot;portfolio-info&quot;&gt;
+				&lt;h3&gt;Paper by FiftyThree&lt;/h3&gt;
+				&lt;p class=&quot;category&quot;&gt;Lightbox Video&lt;/p&gt;
+			&lt;/div&gt;
+			
+			&lt;!-- lightbox - video --&gt; 
+			&lt;a href=&quot;http://player.vimeo.com/video/37254322?badge=0&amp;amp;color=ffffff&quot; title=&quot;Paper by FiftyThree&quot; data-lightbox-gallery=&quot;fancybox-item-03&quot; class=&quot;lightbox iframe&quot;&gt;&lt;/a&gt;
+			&lt;!-- lightbox - video --&gt;
+			
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- portfolio-item - lightbox video --&gt;
+</pre>
+        
+          <div class="alert"> <strong>Note that : </strong> lightbox video link need to have class <code>iframe</code> to work correctly. </div>
+          
+          <p><span class="highlight"><strong>3. Custom Url :</strong></span> opens the url in a new window</p>
+          <pre class="prettyprint linenums">
+&lt;!-- portfolio-item - custom url --&gt;  
+&lt;div class=&quot;logo url hentry&quot;&gt;
+	&lt;div class=&quot;media-box&quot;&gt;
+		&lt;img src=&quot;images/portfolio/04.jpg&quot; alt=&quot;portfolio-post&quot;&gt;
+		&lt;div class=&quot;mask&quot;&gt;
+			&lt;div class=&quot;portfolio-info&quot;&gt;
+				&lt;h3&gt;Robot Sketches&lt;/h3&gt;
+				&lt;p class=&quot;category&quot;&gt;Web Design, UI Design&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;a href=&quot;http://themeforest.net/user/pixelwars&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- portfolio-item - custom url --&gt;
+</pre>
+
+			<div class="page-header">
+            	<h4>Ajax Portfolio</h4>
+            </div>
+            <p><code>portfolio-ajax.html</code> doesn't contain any portfolio items in it's markup, it gets portfolio items via ajax from <code>portfolio.html</code>. Here is the markup for portfolio ajax page;</p>
+          <pre class="prettyprint linenums">
+&lt;!--FILTERS--&gt;
+&lt;ul id=&quot;filters&quot;&gt;
+  &lt;li class=&quot;current&quot;&gt;&lt;a href=&quot;#&quot; data-filter=&quot;*&quot;&gt;all&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; data-filter=&quot;.design&quot;&gt;design&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; data-filter=&quot;.coding&quot;&gt;coding&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; data-filter=&quot;.logo&quot;&gt;logo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--FILTERS--&gt;
+
+
+&lt;!-- PORTFOLIO --&gt;
+&lt;div class=&quot;portfolio-items loading&quot; data-itemPerPage=&quot;7&quot;&gt;
+	
+&lt;/div&gt;
+&lt;!-- PORTFOLIO --&gt;
+
+
+&lt;a id=&quot;loadmore&quot; class=&quot;loadmore&quot; href=&quot;portfolio.html&quot;&gt;MORE ITEMS&lt;/a&gt;
+</pre>     
+			<div class="alert"> <strong>Note : </strong> <code>data-itemPerPage</code> attribute determines how many items to show on page load and when clicked on more link. </div>       
+          
+          <div class="page-header">
+            	<h4>Portfolio Single</h4>
+            </div>
+            <p>You can put images and videos to portfolio single and use columns for different layouts. Here is the sample markup for portfolio single page;</p>
+          <pre class="prettyprint linenums">
+&lt;!-- .row --&gt;
+&lt;div class=&quot;row-fluid page portfolio-single&quot;&gt;
+	
+	
+	&lt;!-- .hentry --&gt;
+	&lt;article class=&quot;page type-page hentry&quot;&gt;
+	  
+	  &lt;!-- .entry-header --&gt;
+	  &lt;header class=&quot;entry-header&quot;&gt;
+		&lt;h1 class=&quot;entry-title&quot;&gt;Paper an iPad app&lt;/h1&gt;
+		&lt;p class=&quot;department&quot;&gt;Illustration, Mobile Application&lt;/p&gt;
+	  &lt;/header&gt;
+	  &lt;!-- .entry-header --&gt;
+	  
+	  &lt;!-- .entry-content --&gt;
+	  &lt;div class=&quot;entry-content&quot;&gt;
+			
+			&lt;!-- .portfolio-text --&gt;
+			&lt;div class=&quot;portfolio-text&quot;&gt;
+				
+				&lt;p&gt;Paper is where ideas begin. It’s the most beautiful way to create on the new iPad. Capture your ideas as sketches, diagrams, illustrations, notes or drawings and instantly share them across the web. Download “Paper by FiftyThree” from the App Store. &lt;/p&gt;
+				&lt;p class=&quot;launch-wrap&quot;&gt;&lt;a href=&quot;#&quot;&gt;Launch Project&lt;/a&gt;&lt;/p&gt;
+				
+			&lt;/div&gt;
+			&lt;!-- .portfolio-text --&gt;
+			
+			&lt;img src=&quot;images/portfolio/single/single-01.jpg&quot; alt=&quot;portfolio&quot;&gt;
+			
+			&lt;!-- .row-fluid --&gt;
+			&lt;div class=&quot;row-fluid&quot;&gt;
+				&lt;div class=&quot;span6&quot;&gt;
+					&lt;img src=&quot;images/portfolio/single/single-02.jpg&quot; alt=&quot;portfolio&quot;&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;span6&quot;&gt;
+					&lt;img src=&quot;images/portfolio/single/single-03.jpg&quot; alt=&quot;portfolio&quot;&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;!-- .row-fluid --&gt;
+			
+			&lt;!-- .media-wrap --&gt;
+			&lt;div class=&quot;media-wrap&quot;&gt;
+				&lt;iframe src=&quot;http://player.vimeo.com/video/37254322?badge=0&amp;amp;color=ffffff&quot; width=&quot;500&quot; height=&quot;281&quot;&gt;&lt;/iframe&gt;
+			&lt;/div&gt;
+			&lt;!-- .media-wrap --&gt;
+			
+			&lt;!-- .media-wrap --&gt;
+			&lt;div class=&quot;media-wrap&quot;&gt;
+				&lt;iframe width=&quot;1120&quot; height=&quot;660&quot; src=&quot;http://www.youtube.com/embed/PhYruJX4ek8?rel=0&quot;&gt;&lt;/iframe&gt;
+			&lt;/div&gt;
+			&lt;!-- .media-wrap --&gt;
+			
+			
+	  &lt;/div&gt;
+	  &lt;!-- .entry-content --&gt;
+	  
+	  
+	&lt;/article&gt;
+	&lt;!-- .hentry --&gt;
+	
+	&lt;!-- .back-to-portfolio --&gt;
+	&lt;div class=&quot;back-to-portfolio portfolio-text&quot;&gt;
+				
+		&lt;p class=&quot;launch-wrap&quot;&gt;&lt;a href=&quot;portfolio-ajax.html&quot;&gt;BACK TO PORTFOLIO&lt;/a&gt;&lt;/p&gt;
+		
+	&lt;/div&gt;
+	&lt;!-- .back-to-portfolio --&gt;
+	
+	&lt;!-- .nav-single --&gt;
+	&lt;nav class=&quot;nav-single row-fluid&quot;&gt;
+	
+		&lt;span class=&quot;nav-previous span6&quot;&gt;
+			&lt;h4&gt;PREVIOUS PROJECT&lt;/h4&gt;
+			&lt;a href=&quot;#&quot; rel=&quot;prev&quot;&gt;&lt;span class=&quot;meta-nav&quot;&gt;&amp;#8592;&lt;/span&gt; Adding A Personal Touch To Your Web Design&lt;/a&gt;
+		&lt;/span&gt;
+		
+		&lt;span class=&quot;nav-next span6&quot;&gt;
+			&lt;h4&gt;NEXT PROJECT&lt;/h4&gt;
+			&lt;a href=&quot;#&quot; rel=&quot;next&quot;&gt;How To Build Long-Term Client Relationships &lt;span class=&quot;meta-nav&quot;&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;
+		&lt;/span&gt;
+		
+	&lt;/nav&gt;
+	&lt;!-- .nav-single --&gt; 
+	
+	
+  &lt;/div&gt;
+  &lt;!-- .row --&gt;
+
+</pre>     
+		      
+          
+          
+        </div>
+        <!-- PORTFOLIO
+            ================================================== --> 
+        
+        <!-- GALLERY
+            ================================================== -->
+        <div id="gallery" class="sub-section">
+          <div class="page-header">
+            <h3>Gallery</h3>
+          </div>
+          
+          <p>Gallery page markup is similar to portfolio page markup;</p>
+          <pre class="prettyprint linenums">
+&lt;!-- GALLERY --&gt;
+&lt;div class=&quot;portfolio-items&quot;&gt;
+	
+  
+  &lt;!-- gallery-item --&gt;  
+  &lt;div class=&quot;hentry image&quot;&gt;
+
+  &lt;/div&gt;
+  &lt;!-- gallery-item --&gt;  
+  
+  &lt;!-- gallery-item --&gt;   
+  &lt;div class=&quot;hentry image&quot;&gt;
+
+  &lt;/div&gt;
+  &lt;!-- gallery-item --&gt;  
+  
+ 
+  
+&lt;/div&gt;
+&lt;!-- GALLERY --&gt;
+</pre>
+			
+            <div class="page-header">
+            	<h4>Ajax Gallery</h4>
+            </div>
+            <p><code>gallery-ajax.html</code> doesn't contain any gallery items in its markup, it gets gallery items via ajax from <code>gallery.html</code>. Here is the markup for gallery ajax page;</p>
+          <pre class="prettyprint linenums">
+&lt;!-- GALLERY --&gt;
+&lt;div class=&quot;portfolio-items loading&quot; data-itemPerPage=&quot;5&quot;&gt;
+	  
+&lt;/div&gt;
+&lt;!-- GALLERY --&gt;
+
+&lt;a id=&quot;loadmore&quot; class=&quot;loadmore&quot; href=&quot;gallery.html&quot;&gt;MORE ITEMS&lt;/a&gt;
+</pre>     
+			<div class="alert"> <strong>Note : </strong> <code>data-itemPerPage</code> attribute determines how many items to show on page load and when clicked on more link. </div> 
+            
+            
+          <div class="page-header">
+            	<h4>Gallery Single</h4>
+            </div>
+            <p>Gallery single page uses gamma gallery script in <a target="_blank" href="http://tympanus.net/codrops/2012/11/06/gamma-gallery-a-responsive-image-gallery-experiment/">this tutorial by codrops</a>. Gamma gallery is a responsive image gallery that attempts to provide an adjustable responsive images approach taking its grid layout and the full slideshow view into account. Here is the markup for gallery single page;</p>
+          <pre class="prettyprint linenums">
+&lt;!-- .gamma-container --&gt;
+&lt;div class=&quot;gamma-container gamma-loading&quot; id=&quot;gamma-container&quot;&gt;
+	
+	&lt;!-- .gamma-gallery --&gt;
+	&lt;ul class=&quot;gamma-gallery&quot; data-slideshowInterval=&quot;3000&quot; data-circular=&quot;true&quot; data-nextOnClickImage=&quot;true&quot;&gt;
+		
+		&lt;!-- image --&gt;
+		&lt;li&gt;
+			&lt;div data-description=&quot;&lt;h3&gt;Clouds&lt;/h3&gt;&quot; data-max-width=&quot;1800&quot; data-max-height=&quot;1350&quot;&gt;
+				&lt;div data-src=&quot;images/gallery/01-xxlarge.jpg&quot; data-min-width=&quot;1200&quot;&gt;&lt;/div&gt;
+				&lt;div data-src=&quot;images/gallery/01-xlarge.jpg&quot; data-min-width=&quot;800&quot;&gt;&lt;/div&gt;
+				&lt;div data-src=&quot;images/gallery/01-large.jpg&quot; data-min-width=&quot;400&quot;&gt;&lt;/div&gt;
+				&lt;div data-src=&quot;images/gallery/01-medium.jpg&quot; data-min-width=&quot;200&quot;&gt;&lt;/div&gt;
+				&lt;div data-src=&quot;images/gallery/01-small.jpg&quot;&gt;&lt;/div&gt;
+				&lt;noscript&gt;
+					&lt;img src=&quot;images/gallery/01-small.jpg&quot; alt=&quot;img01&quot;/&gt;
+				&lt;/noscript&gt;
+			&lt;/div&gt;
+		&lt;/li&gt;
+		&lt;!-- image --&gt;
+		
+		&lt;!-- image --&gt;
+		&lt;li&gt;
+			&lt;div data-description=&quot;&lt;h3&gt;Sunrise&lt;/h3&gt;&quot; data-max-width=&quot;800&quot; data-max-height=&quot;979&quot;&gt;
+				&lt;div data-src=&quot;images/gallery/02-large.jpg&quot; data-min-width=&quot;400&quot;&gt;&lt;/div&gt;
+				&lt;div data-src=&quot;images/gallery/02-medium.jpg&quot; data-min-width=&quot;200&quot;&gt;&lt;/div&gt;
+				&lt;div data-src=&quot;images/gallery/02-small.jpg&quot;&gt;&lt;/div&gt;
+				&lt;noscript&gt;
+					&lt;img src=&quot;images/gallery/02-small.jpg&quot; alt=&quot;img02&quot;/&gt;
+				&lt;/noscript&gt;
+			&lt;/div&gt;
+		&lt;/li&gt;
+		&lt;!-- image --&gt;
+		
+		&lt;!-- image --&gt;
+		&lt;li&gt;
+			&lt;div data-description=&quot;&lt;h3&gt;Sunset&lt;/h3&gt;&quot; data-max-width=&quot;1200&quot; data-max-height=&quot;677&quot;&gt;
+				&lt;div data-src=&quot;images/gallery/03-large.jpg&quot; data-min-width=&quot;400&quot;&gt;&lt;/div&gt;
+				&lt;div data-src=&quot;images/gallery/03-medium.jpg&quot; data-min-width=&quot;200&quot;&gt;&lt;/div&gt;
+				&lt;div data-src=&quot;images/gallery/03-small.jpg&quot;&gt;&lt;/div&gt;
+				&lt;noscript&gt;
+					&lt;img src=&quot;images/gallery/03-small.jpg&quot; alt=&quot;img03&quot;/&gt;
+				&lt;/noscript&gt;
+			&lt;/div&gt;
+		&lt;/li&gt;
+		&lt;!-- image --&gt;
+		
+		
+	&lt;/ul&gt;
+	&lt;!-- .gamma-gallery --&gt;
+	
+
+	&lt;div class=&quot;gamma-overlay&quot;&gt;&lt;/div&gt;
+	
+
+&lt;/div&gt;
+&lt;!-- .gamma-container --&gt;
+</pre>     
+			
+            <p>With Gamma gallery script you can serve optimal images for different viewports, a small image and for other viewports (max-width 200px/400px/800px/1200px). If you dont want to deal with different image sizes you can serve a medium image and a large image. Here is the sample markup with only medium image and a large image;</p>
+            
+          <pre class="prettyprint linenums">
+&lt;!-- image --&gt;
+&lt;li&gt;
+    &lt;div data-description=&quot;&lt;h3&gt;Clouds&lt;/h3&gt;&quot; data-max-width=&quot;1800&quot; data-max-height=&quot;1350&quot;&gt;
+        &lt;div data-src=&quot;images/gallery/01-xxlarge.jpg&quot; data-min-width=&quot;400&quot;&gt;&lt;/div&gt;
+        &lt;div data-src=&quot;images/gallery/01-medium.jpg&quot;&gt;&lt;/div&gt;
+        &lt;noscript&gt;
+            &lt;img src=&quot;images/gallery/01-medium.jpg&quot; alt=&quot;img01&quot;/&gt;
+        &lt;/noscript&gt;
+    &lt;/div&gt;
+&lt;/li&gt;
+&lt;!-- image --&gt;
+</pre>              
+            
+			<div class="alert"> <strong>Note : </strong> The <code>data-max-width</code> and <code>data-max-height</code> attributes defines the largest image dimension which will restrict it to that size and not stretch it fully in the slideshow view. </div> 
+            
+          <p>Customizable Html Data Attributes</p>
+          
+          <ul>
+          	<li><strong>data-slideshowInterval </strong> determines slideshow interval in ms.</li>
+            <li><strong>data-circular </strong> determines if the images in the slideshow will be circular (true/false).</li>
+            <li><strong>data-nextOnClickImage </strong> determines if next image is shown when clicking on image (true/false).</li>
+          </ul>
+          
+          <div class="page-header">
+            	<h4>Ajax Gallery Single</h4>
+            </div>
+            <p><code>gallery-single-ajax.html</code> doesn't contain any items in its markup, it gets items via ajax from <code>gallery-single.html</code>. Here is the markup for gallery single ajax page;</p>
+          <pre class="prettyprint linenums">
+&lt;!-- .gamma-container --&gt;
+&lt;div class=&quot;gamma-container gamma-loading&quot; id=&quot;gamma-container&quot;&gt;
+	
+	&lt;!-- .gamma-gallery --&gt;
+	&lt;ul class=&quot;gamma-gallery&quot; data-itemPerPage=&quot;5&quot; data-slideshowInterval=&quot;2000&quot; data-circular=&quot;true&quot; data-nextOnClickImage=&quot;true&quot;&gt;
+		
+	&lt;/ul&gt;
+	&lt;!-- .gamma-gallery --&gt;
+	
+	&lt;div class=&quot;gamma-overlay&quot;&gt;&lt;/div&gt;
+
+	&lt;a id=&quot;loadmore&quot; class=&quot;loadmore&quot; href=&quot;gallery-single.html&quot;&gt;MORE IMAGES&lt;/a&gt;
+
+&lt;/div&gt;
+&lt;!-- .gamma-container --&gt;
+</pre>     
+			<div class="alert"> <strong>Note : </strong> <code>data-itemPerPage</code> attribute determines how many items to show on page load and when clicked on more link. </div> 
+          
+          
+        </div>
+        <!-- GALLERY
+            ================================================== --> 
+        
+        <!-- CONTACT
+            ================================================== -->
+        <div id="contact" class="sub-section">
+          <div class="page-header">
+            <h3>Contact</h3>
+          </div>
+          <p>Contact page includes working php ajax contact form. You can set receiver mail address via hidden input value in <code>form</code> element.</p>
+          <pre class="prettyprint linenums">
+&lt;!-- enter your e-mail adress --&gt;
+&lt;input type=&quot;hidden&quot; id=&quot;to&quot; name=&quot;to&quot; value=&quot;youremail@here.com&quot;&gt;
+</pre>
+			<p>If you want to change form action alerts (success or error messages). Edit <code>js/send-mail.js</code> in a text editor, you will see action messages in it;</p>
+            <p>Success message;</p>
+            <pre class="prettyprint linenums">
+if ( data == 'success' )
+{
+	contactForm.clearForm();
+	contactForm.prepend('&lt;div class=&quot;alert success&quot;&gt;&lt;strong&gt;SUCCESS:&lt;/strong&gt; Your message has been sent.&lt;/div&gt;');
+}
+</pre>    
+			<p>Error message;</p>
+            <pre class="prettyprint linenums">
+else
+{
+	contactForm.prepend('&lt;div class=&quot;alert error&quot;&gt;&lt;strong&gt;ERROR:&lt;/strong&gt; Something went wrong.&lt;/div&gt;');
+}
+</pre>          
+        </div>
+        <!-- CONTACT
+            ================================================== --> 
+        
+      </section>
+      <!-- HTML
+        ================================================== --> 
+      
+      <!-- CSS
+        ================================================== -->
+      <section id="css">
+        <div class="page-header">
+          <h1>CSS<small>style files used</small></h1>
+        </div>
+        <p class="lead">Here is a complete list of used css files in the theme and what thay stand for;</p>
+        <ul>
+          <li><strong>normalize.css :</strong> <a href="http://necolas.github.com/normalize.css/" target="_blank">Normalize.css</a> is an alternative to CSS resets. Normalize.css makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing. </li>
+          <li><strong>grid.css :</strong> Grid Sytem - a customized version of <a href="http://twitter.github.com/bootstrap/index.html" target="_blank">Bootstrap</a> fluid grid system, we used it for our responsive layout.</li>
+          <li><strong>print.css :</strong> Print specific styles.</li>
+          <li><strong>style.css :</strong> Wordpress specific styles (image alignments etc..). Since this template is intented to convert a wordpress theme soon, we used style.css</li>
+          <li><strong>font-awesome.css :</strong> is the style file of <a href="http://fortawesome.github.com/Font-Awesome/" target="_blank">Font-Awesome</a> icon font.</li>
+          <li><strong>flexslider.css :</strong> is the style file of <a href="http://www.woothemes.com/flexslider/" target="_blank">FlexSlider</a> responsive slider script, used for post format gallery slider in blog.</li>
+          <li><strong>gamma-gallery.css :</strong> is the style file of <a href="http://tympanus.net/codrops/2012/11/06/gamma-gallery-a-responsive-image-gallery-experiment/" target="_blank">Gamma Gallery</a> script, used in gallery single page.</li>
+          <li><strong>uniform.default.css : </strong> is the style file of <a href="https://github.com/pixelmatrix/uniform" target="_blank">jQuery Uniform</a> plugin, used for cross browser styled form elements.</li>
+          <li><strong>jquery.fancybox-1.3.4.css :</strong> is the style file of <a href="http://fancybox.net/" target="_blank">Fancybox </a> jquery plugin, used for lightbox.</li>
+          <li><strong>main.css :</strong> is the main style file of the theme. Layout/font/color and other style declerations are in this file. Codes are grouped and commented.</li>
+        </ul>
+        <p><span class="highlight">Included Fonts (Font icons)</span></p>
+        <p>In this theme we have used font icons instead of png icons, because font icons are vector-scalable, ready for retina screens, saves bandwidth and easy to work with.</p>
+        <ul>
+          <li><strong>fonts/FontAwesome : </strong> <a href="http://fortawesome.github.com/Font-Awesome/" target="_blank">FontAwesome</a> is the general font icon set we used in this template.</li>
+          <li><strong>fonts/justvector : </strong> <a href="http://blog.martianwabbit.com/post/4344642365/justvector-social-icons-font" target="_blank">Justvector</a> is a font icon set we used for social icons.</li>
+        </ul>
+      </section>
+      <!-- CSS
+        ================================================== --> 
+      
+      <!-- JAVASCRIPT
+        ================================================== -->
+      <section id="javascript">
+        <div class="page-header">
+          <h1>Javascript<small>script files used</small></h1>
+        </div>
+        <p class="lead">We are using jquery (v1.8.2) as javascipt framework.</p>
+        <p>Here is a complete list of used script files in the theme and what thay stand for;</p>
+        <ul>
+          <li><strong>jquery-1.8.2.min.js :</strong> <a href="http://jquery.com/" target="_blank">jQuery</a> is a fast and concise JavaScript Library that simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development. We are fetching jQuery from google cdn with fallback to local if online. This approach increases page load speed since most of the user will have jQuery cached from google. </li>
+          <li><strong>html5shiv.js :</strong> <a href="https://github.com/aFarkas/html5shiv" target="_blank">HTML5 Shiv </a> is the defacto way to enable use of HTML5 sectioning elements in legacy Internet Explorer.</li>
+          <li><strong>selectivizr-min.js : </strong> <a href="http://selectivizr.com/" target="_blank">selectivizr</a> is a JavaScript utility that emulates CSS3 pseudo-classes and attribute selectors in Internet Explorer 6-8.</li>
+          <li><strong>detectmobilebrowser.js : </strong> <a href="http://detectmobilebrowsers.com/" target="_blank">Detect Mobile Browsers</a> is an open source mobile phone detection script.</li>
+          <li><strong>modernizr.js :</strong> <a href="http://modernizr.com/" target="_blank">Modernizr</a> is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser. We are using it to proivde fallbacks for not supported browser. </li>
+     	  <li><strong>jquery.imagesloaded.min.js : </strong> <a href="http://desandro.github.com/imagesloaded/" target="_blank">imagesloaded</a> is a jQuery plugin that triggers a callback after all images have been loaded.</li>	
+          <li><strong>jquery.fitvids.js :</strong> <a href="http://fitvidsjs.com/" target="_blank">fitvids.JS</a> is a lightweight, easy-to-use jQuery plugin for fluid width video embeds. We used it for responsive video embeeding.</li>
+          <li><strong>jquery.isotope.min.js :</strong> <a href="http://isotope.metafizzy.co/" target="_blank">Isotope</a> is an exquisite jQuery plugin for magical layouts. We used it to build portfolio layout and filtering. Also for gallery page layout.</li>
+          
+          
+          <li><strong>jquery.flexslider-min.js : </strong> <a href="http://www.woothemes.com/flexslider/" target="_blank">FlexSlider</a> is a responsive slider script, used for post format gallery slider in blog.</li>
+          <li><strong>jquery.uniform.min.js : </strong> <a href="https://github.com/pixelmatrix/uniform" target="_blank">jQuery Uniform</a> is a form style plugin, used for cross browser styled form elements.</li>
+          
+          <li><strong>gamma.js : </strong> <a href="http://tympanus.net/codrops/2012/11/06/gamma-gallery-a-responsive-image-gallery-experiment/" target="_blank">Gamma Gallery</a> is a responsive image gallery script, used in gallery single page.</li>
+          <li><strong>jquery.masonry.min.js : </strong> <a href="http://masonry.desandro.com/" target="_blank">jQuery Masonry</a> is a dynamic grid layout plugin for jQuery. Used by gamma gallery script.</li>
+          <li><strong>jquerypp.custom.js : </strong> <a href="http://jquerypp.com/" target="_blank">jQuery++</a> is a collection of extremely useful DOM helpers and special events for jQuery 1.8 and later. Used by gamma gallery script.</li>
+          <li><strong>js-url.min.js : </strong> <a href="https://github.com/websanova/js-url" target="_blank">js-url</a> is a simple, lightweight url parser for JavaScript. Used by gamma gallery script</li>
+          <li><strong>jquery.history.js : </strong> <a href="https://github.com/balupton/history.js" target="_blank">History.js</a> gracefully supports the HTML5 History/State APIs (pushState, replaceState, onPopState) in all browsers. Used by gamma gallery script.</li>
+          
+          <li><strong>google-code-prettify : </strong> <a href="http://detectmobilebrowsers.com/" target="_blank">google-code-prettify</a> is a Javascript module and CSS file that allows syntax highlighting of source code snippets in an html page.</li>
+          <li><strong>mediaelement.js : </strong> <a href="http://mediaelementjs.com" target="_blank">MediaElement.js</a> is a script that provides HTML5 audio and video players in pure HTML and CSS with flash/silverlight  fallbacks for non supported browsers.</li>
+          
+          <li><strong>jquery.validate.min.js :</strong> <a href="http://bassistance.de/jquery-plugins/jquery-plugin-validation/" target="_blank">jQuery validate plugin</a> is a jQuery plugin makes simple client-side form validation. We used it for contact form client-side validation.</li>
+          <li><strong>jquery.fancybox-1.3.4.pack.js :</strong> is the script file of <a href="http://fancybox.net/" target="_blank">Fancybox </a> jquery plugin, used for lightbox.</li>
+          <li><strong>instagram.js : </strong> is a simple script to get a user's instagram photostream. Edit file and enter your "userId" and enter an integer to "num_to_display" to decide how many image will be shown. Instagram script is used in instragram sidebar widget.</li>
+          <li><strong>send-mail.js :</strong> is a simple script file written by us to send mail via contact form with ajax support.</li>
+          <li><strong class="highlight">main.js :</strong> This is the main script file of the theme. Plugin calls and other script works are done in this file with comments.</li>
+        </ul>
+      </section>
+      <!-- JAVASCRIPT
+        ================================================== --> 
+      
+      <!-- CUSTOMIZATION
+        ================================================== -->
+      <section id="customization">
+        <div class="page-header">
+          <h1>Customization<small>how to customize the theme to your needs.</small></h1>
+        </div>
+
+       
+        <!-- CUSTOM CSS
+            ================================================== -->
+        <div id="custom-css" class="sub-section">
+          <div class="page-header">
+            <h3>Custom CSS</h3>
+          </div>
+          
+          <p class="lead">Here are some simple css code snippets to customize the essentials;</p>
+          
+          <p>Change menu active item text color;</p>
+          <pre class="prettyprint linenums">
+.main-navigation ul .current-menu-item > a { color:#C30; }
+</pre>
+		   
+           <p>Change link and link hover color;</p>
+          <pre class="prettyprint linenums">
+a { color: #CE6607; }
+a:hover { color:#A35208; }
+</pre>
+			<p>Change slider nav link hover style;</p>
+          <pre class="prettyprint linenums">
+.flex-direction-nav a:hover { background:#C30; color:#fff; }
+</pre>
+			<p>Change text-selection color;</p>
+          <pre class="prettyprint linenums">
+::selection { color:#333; background:#FF9; }
+::-moz-selection { color:#333; background:#FF9; }
+</pre>
+
+          <p>If you want to edit a specific section of the site, follow these steps; </p>
+          <p>First grab the element you want to style by inspecting element in your browser, right click the element and click <span class="highlight">Inspect Element</span>. If you don't know how, check out <a href="http://net.tutsplus.com/tutorials/tools-and-tips/chrome-dev-tools-markup-and-style/" target="_blank">this article</a>, once you are familiar with this approach you will find it extremely easy to edit/override current styles of an element.</p>
+          <p>Let's say you want to make active filter link item bolder in portfolio filtering. Grab the element by right click on it and click "Inspect Element", on the right pane of developer tool window we can see to code to grab the elemnent with css : <code>#filters .current a</code> Then do the following;</p>
+          <pre class="prettyprint linenums">#filters .current a { font-weight: bold; }</pre>
+          <p>If you find that your new style is not overriding, it is most likely because of a specificity problem. Scroll down in your CSS file and make sure that there isn't a similar style that has more weight .</p>
+          <pre class="prettyprint linenums">#portfolio #filters .current a { font-weight: bold ; }</pre>
+          <p>And if your new style is not overriding, add <code>!important</code> at the end of style definition;</p>
+          <pre class="prettyprint linenums">#filters .current a { font-weight: bold !important; }</pre>
+          <div class="alert alert-info"> <strong>NOTE : </strong> Add your custom css code after all style definitions in your <code>head</code> tag. </div>
+          <pre class="prettyprint linenums">&lt;style&gt;
+	#filters .current a { font-weight: bold !important; }
+&lt;/style&gt;</pre>
+        </div>
+        <!-- CUSTOM CSS
+            ================================================== --> 
+        
+        <!-- FONTS
+            ================================================== -->
+        <div id="fonts" class="sub-section">
+          <div class="page-header">
+            <h3>Fonts</h3>
+          </div>
+          <h4>Fonts by <a target="_new" href="http://www.google.com/webfonts">Google Webfonts</a></h4>
+          <p>This theme uses three different embeeded fonts; <a href="http://www.google.com/webfonts/specimen/Lora" target="_blank">Lora</a> for body, <a href="http://www.google.com/webfonts/specimen/Coustard" target="_blank">Coustard</a> for headings, <a href="http://www.google.com/webfonts/specimen/UnifrakturMaguntia" target="_blank">UnifrakturMaguntia</a> for site title and "Georgia" is used in some sections which is a web-safe font, no need to embed it again. We include this three fonts from <a target="_blank" href="http://www.google.com/webfonts">Google Webfonts</a> which uses font-face technique for font embeeding.</p>
+          <p>Font declerations are at the head section;</p>
+          <pre class="prettyprint linenums">
+&lt;!-- FONTS --&gt;
+&lt;link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'&gt;
+&lt;link href='http://fonts.googleapis.com/css?family=UnifrakturMaguntia' rel='stylesheet' type='text/css'&gt;
+&lt;link href='http://fonts.googleapis.com/css?family=Coustard' rel='stylesheet' type='text/css'&gt;
+</pre>
+          <h4>Changing Fonts</h4>
+          <p>To change fonts, just go to <a target="_new" href="http://www.google.com/webfonts">Google Webfonts</a> site, search and select a new font, click <b>"Quick use"</b> link, then copy the stylesheet code from <b> Add this code to your website: / Standart</b> section and paste the code into <code>head</code> section. Then change the font family name in <b>main.css</b> starting from <b>line:376</b>. These font definitions in main.css are the only font definitions for the entire theme, once you have changed font-family in these lines, you are done!</p>
+          <pre class="prettyprint linenums">/* FONTS */
+
+/* BODY */
+html, button, input, select, textarea, .toggle h4 
+{ font-family: 'Lora', Georgia, serif; }
+
+/* HEADINGS */
+h1, h2, h3, h4, h5, h6, .main-navigation ul li, dt 
+{ font-family:"Coustard", Georgia, serif; }
+
+/* SITE TITLE */
+h1.site-title, h1.site-title a { font-family:"UnifrakturMaguntia", Georgia, serif; }
+</pre>
+        </div>
+        <!-- FONTS
+            ================================================== --> 
+        
+      </section>
+      <!-- CUSTOMIZATION
+        ================================================== --> 
+      
+      <!-- CREDITS
+        ================================================== -->
+      <section id="credits">
+        <div class="page-header">
+          <h1>Credits<small>thanks to creator of this great files</small></h1>
+        </div>
+        <ul>
+          <li><a href="http://necolas.github.com/normalize.css/" target="_blank">Normalize.css</a></li>
+          <li><a href="http://twitter.github.com/bootstrap/index.html" target="_blank">Bootstrap 2</a></li>
+          <li><a href="http://fancybox.net/" target="_blank">Fancybox</a></li>
+          <li><a href="http://blog.martianwabbit.com/post/4344642365/justvector-social-icons-font" target="_blank">Justvector social icon font</a></li>
+          <li><a href="http://jquery.com/" target="_blank">jQuery</a></li>
+          <li><a href="http://detectmobilebrowsers.com/" target="_blank">Detect Mobile Browsers script</a></li>
+          <li><a href="http://modernizr.com/" target="_blank">Modernizr</a></li>
+          <li><a href="http://isotope.metafizzy.co/" target="_blank">Isotope</a></li>
+          <li><a href="http://fitvidsjs.com/" target="_blank">fitvids.JS</a></li>
+          <li><a href="http://bassistance.de/jquery-plugins/jquery-plugin-validation/" target="_blank">jQuery validate plugin</a></li>
+          <li>Fonts by <a target="_new" href="http://www.google.com/webfonts">Google Webfonts</a></li>
+          <li><a href="http://code.google.com/p/google-code-prettify/" target="_blank">google-code-prettify</a></li>
+          <li><a href="http://fortawesome.github.com/Font-Awesome/" target="_blank">Font Awesome</a></li>
+          <li><a href="https://github.com/pixelmatrix/uniform" target="_blank">jQuery Uniform</a></li>
+          <li><a href="https://github.com/aFarkas/html5shiv" target="_blank">HTML5 Shiv</a></li>
+          <li><a href="http://selectivizr.com/" target="_blank">selectvizr</a></li>
+          <li><a href="http://stuffthatspins.com/2012/03/30/display-instagram-picture-stream-really-easy-with-jquery-and-json/" target="_blank">jQuery Instagram Script</a></li>
+          <li><a href="http://www.woothemes.com/flexslider/" target="_blank">Flexslider</a></li>
+          <li><a href="http://mediaelementjs.com/" target="_blank">Mediaelement.js</a></li>
+          <li><a href="http://tympanus.net/codrops/2012/11/06/gamma-gallery-a-responsive-image-gallery-experiment/" target="_blank">Gamma Gallery</a></li>
+          <li><a href="http://preloaders.net" target="_blank">Preloaders</a></li>
+          <li><a href="https://github.com/desandro/imagesloaded" target="_blank">imagesloaded</a></li>
+          <li><a href="http://masonry.desandro.com/" target="_blank">jQuery Masonry</a></li>
+          <li><a href="http://jquerypp.com/" target="_blank">jQuery++</a></li>
+          <li><a href="https://github.com/websanova/js-url" target="_blank">js-url</a></li>
+          <li><a href="https://github.com/balupton/history.js" target="_blank">History.js</a></li>
+        </ul>
+      </section>
+      <!-- CREDITS
+        ================================================== --> 
+      
+    </div>
+    <!-- CONTENT --> 
+  </div>
+  <!-- ROW --> 
+</div>
+<!-- CONTAINER --> 
+
+<!-- Footer
+    ================================================== -->
+<footer class="footer">
+  <div class="container">
+    <div class="row-fluid">
+      <div class="span12">
+        <p><a href="#">Back to top</a></p>
+        <ul class="footer-links">
+          <li><a href="http://www.pixelwars.org/forums/" target="_blank">Support Forums</a></li>
+          <li><a href="http://themeforest.net/user/pixelwars/portfolio" target="_blank">More themes from pixelwars</a></li>
+        </ul>
+        <p>built with <a href="http://twitter.github.com/bootstrap/" target="_blank">twitter bootstrap</a>.</p>
+        <p>&copy;2012 Pixelwars</p>
+        <p><img src="assets/img/pixelwars-logo.png" alt="pixelwars logo"></p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Footer
+    ================================================== --> 
+
+<!-- javascript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+<script src="assets/js/jquery.js"></script> 
+<script src="assets/js/google-code-prettify/prettify.js"></script> 
+<script src="assets/js/bootstrap-transition.js"></script> 
+<script src="assets/js/bootstrap-alert.js"></script> 
+<script src="assets/js/bootstrap-modal.js"></script> 
+<script src="assets/js/bootstrap-dropdown.js"></script> 
+<script src="assets/js/bootstrap-scrollspy.js"></script> 
+<script src="assets/js/bootstrap-tab.js"></script> 
+<script src="assets/js/bootstrap-tooltip.js"></script> 
+<script src="assets/js/bootstrap-popover.js"></script> 
+<script src="assets/js/bootstrap-button.js"></script> 
+<script src="assets/js/bootstrap-collapse.js"></script> 
+<script src="assets/js/bootstrap-carousel.js"></script> 
+<script src="assets/js/bootstrap-typeahead.js"></script> 
+<script src="assets/js/bootstrap-affix.js"></script> 
+<script src="assets/js/application.js"></script>
+</body>
+</html>
